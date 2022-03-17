@@ -25,5 +25,13 @@
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klizau/aqua-therapy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klizau/aqua-therapy/issues"
+  },
+  "homepage": "https://github.com/klizau/aqua-therapy#readme"
 }
