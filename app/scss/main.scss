@@ -50,6 +50,10 @@ a{
   color: inherit;
   text-decoration: none;
 }
+
+li{
+  list-style-type: none;
+}
 .events-none {
   pointer-events: none;
 }
@@ -96,3 +100,4 @@ strong {
 @import "./_components/header";
 @import "./_components/footer";
 @import "./_components/container";
+@import "./_components/button";

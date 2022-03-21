@@ -1,0 +1,10 @@
+.button{
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #018ABE;
+  border-radius: 3px;
+  transition: border-radius 300ms;
+  &:hover{
+    border-radius: 20px;
+  }
+}
