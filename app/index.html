@@ -14,6 +14,7 @@
   </head>
   <body class="page-body">
     <header class="page-header header">
+      <div class="container">
       <img class="page__logo" src="./img/logo.png" alt="logo" />
       <ul class="page__nav">
         <li class="nav__item">
@@ -39,17 +40,21 @@
         </li>
       </ul>
       <a href="#" class="button link header__button">Записаться на сеанс</a>
+      </div>
     </header>
     <main class="page__main">
       <section class="headline section__headline section">
+        <div class="container">
         <div class="headline__title">
           <img src="./img/leaf-white-left.svg" alt="left__white" />
           <h1>Укрепление здоровья</h1>
           <img src="./img/leaf-white-right.svg" alt="leaf__white-r" />
         </div>
         <div class="headline__text">Акватерапия RitmStyle</div>
+        </div>
       </section>
       <section class="sessions section__sessions section">
+        <div class="container">
         <div class="section__title">
           <img src="./img/leaf-blue-left.svg" alt="left__blue" />
           <h2>Сеансы RitmStyle</h2>
@@ -80,6 +85,7 @@
               </p>
             </div>
           </div>
+        </div>
         </div>
       </section>
       <section class="reviews section__reviwes section">
@@ -168,6 +174,7 @@
         </div>
       </section>
       <section class="about section__about section">
+        <div class="container-small">
         <div class="section__title">
           <img src="./img/leaf-blue-left.svg" alt="left__blue" />
           <h2>Об RitmStyle</h2>
@@ -208,8 +215,10 @@
             dui tellus odio.
           </p>
         </div>
+        </div>  
       </section>
       <section class="section__price section">
+        <div class="container-small">
         <div class="section__title">
           <img src="./img/leaf-blue-left.svg" alt="left__blue" />
           <h2>Стоимость сеансов</h2>
@@ -258,11 +267,11 @@
             <p class="certificate__text">Подарочный сертификат</p>
           </div>
         </div>
+        </div>
       </section>
       <section class="location section__location section">
-        <div class="location__map">
-          <p>моя карта</p>
-        </div>
+        <div class="container">
+        <div id="map">My map will go here</div>
         <div class="location__direction">
           <div class="direction__card">
             <p class="direction__card__title">Бассейн WorkClass</p>
@@ -305,9 +314,10 @@
             >
           </div>
         </div>
+        </div>
       </section>
-      <section class="location section__location section"></section>
     </main>
     <script src="js/common.min.js"></script>
+    <script src="js/map.js"></script>
   </body>
 </html>

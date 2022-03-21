@@ -19,7 +19,8 @@ body {
   position: relative;
   font-family: El Messiri;
   overflow-x: hidden;
-  color: black;
+  background-color: #162831;
+  color: white;
   display: flex;
   flex-direction: column;
   input,
@@ -33,6 +34,21 @@ body {
       border-color: green;
     }
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
 }
 .events-none {
   pointer-events: none;
