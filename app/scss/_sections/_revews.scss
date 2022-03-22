@@ -1,0 +1,19 @@
+.reviews__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #018abe;
+  border-radius: 10px;
+  padding: 50px 60px;
+  width: 636px;
+  margin-right: 50px;
+}
+
+.review-card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
