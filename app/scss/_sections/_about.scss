@@ -1,0 +1,33 @@
+.about{
+ margin-top: 150px;
+}
+
+.about__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 118px;
+  gap: 84px;
+}
+
+.block__text{
+  margin-bottom: 84px;
+  &:last-child{
+    margin: 0;
+  }
+}
+
+.block__title{
+ font-size: 24px;
+ font-weight: bold;
+ padding-bottom: 30px;
+}
+
+.about__text{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.block--reverce{
+  flex-direction: row-reverse;
+}
