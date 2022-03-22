@@ -1,0 +1,53 @@
+.sessions {
+  padding-top: 150px;
+}
+
+.section__title {
+  padding-bottom: 100px;
+}
+
+.card__list {
+  display: flex;
+  justify-content: space-between;
+  height: 540px;
+}
+
+.big-card {
+  position: relative;
+}
+
+.small-card__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-left: 24px;
+}
+
+.small-card {
+  width: calc(50% - 12px);
+  height: calc(50% - 12px);
+  border-radius: 10px;
+  background: url(./../../img/card.png) center center / cover no-repeat;
+  position: relative;
+  &:hover{
+    border-bottom: #018ABE;
+  }
+}
+
+.card__text {
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.big-card__text{
+  position: absolute;
+  bottom: 5px ;
+  left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
